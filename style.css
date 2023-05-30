@@ -1,0 +1,70 @@
+:root{
+    --primary-color: rgb(89, 86, 233);
+    --second-color: rgb(117, 114, 255);
+    --text-primary-color: rgba(35, 34, 51, 1);
+    --text-second-color:rgba(108, 108, 114, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+#about, #interface, #team, #blog, #info-contact{
+    background-color: white;
+}
+
+#video{
+    background-color: var(--primary-color);
+}
+
+#navbar-home{
+    margin: 35px 134px 0 135px;
+}
+
+.contact-networks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-nav-item{
+    display: flex;
+}
+
+#contact-nav-item img{
+    height: 1.8rem;
+}
+
+#download-nav{
+    border: none;
+    border-radius: 0,5rem;
+    color: white;
+}
+
+.navigation{
+    border-radius: 0,5rem;
+    color: var(--text-primary-color);
+}
+
+footer{
+    background-color: var(--text-primary-color);
+}
+
+#submit{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0;
+}
+
+.color-nav:hover{
+    color: var(--primary-color);
+}
