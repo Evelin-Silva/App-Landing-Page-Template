@@ -14,64 +14,92 @@
 			rel="stylesheet"
 		/>
 
-		<title>First project</title>
+		<title>App-Landing-Page-Template</title>
 	</head>
 	<body>
+
+		<!--PÁGINA 01-->
 			<div id="home">
+
+				<!--BARRA DE NAVEGAÇÃO-->
 				<div id="navbar-home">
-					<nav class="contact-networks">
-						<div id="contact-nav-item">
-							<div>
-								<img src="/assets/icon-email.svg" alt="Email icon" />
-								<span>Info@youremail.com</span>
-							</div>
-							<div>
-								<img src="/assets/icon-phone.svg" alt="Phone icon" />
-								<span>(480) 555-0103</span>
-							</div>
+
+					<!--BARRA DE CONTATO E REDES-->
+					<nav id="float-nav">
+
+						<!--EMAIL E NÚMERO-->
+						<div id="contact">
+							<img src="/assets/icon-email.svg" alt="Email icon" />
+							<span>Info@youremail.com</span>
+							<img src="/assets/icon-phone.svg" alt="Phone icon" />
+							<span>(480) 555-0103</span>
 						</div>
-						<div>
+
+						<!--REDES SOCIAIS-->
+						<div id="networks">
 							<img src="/assets/icon-facebook.svg" alt="Facebook icon" />
 							<img src="/assets/icon-instagram.svg" alt="Instagram icon" />
 							<img src="/assets/icon-twitter.svg" alt="Twitter icon" />
 							<img src="/assets/icon-youtube.svg" alt="YouTube icon" />
 						</div>
 					</nav>
-					<nav class="navigation">
-						<span class="color-nav">HOME</span>
-						<span class="color-nav">ABOUT</span>
-						<span class="color-nav">FEATURES</span>
-						<img src="/assets/logo.svg" alt="Logo Appolly" />
-						<span class="color-nav">SCREENSHOT</span>
-						<span class="color-nav">BLOG</span>
-						<button id="download-nav">DOWNLOAD</button>
-					</nav>
+
+					<!--BARRA DE NAVEGAÇÃO PRINCIPAL-->
+					<div id="navigation-display">
+						<nav id="navigation">
+							<span>HOME</span>
+							<span>ABOUT</span>
+							<span>FEATURES</span>
+							<img src="/assets/logo.svg" alt="Logo Appolly" />
+							<span>SCREENSHOT</span>
+							<span>BLOG</span>
+							<button>DOWNLOAD</button>
+						</nav>
+					</div>
 				</div>
-				<div id="frame-home"></div>
-				<div>
-					<h1>A Great App Makes Your Life Better</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Exercitationem cupiditate mollitia esse sed est alias voluptates
-						nobis odio porro itaque, quas voluptate atque. Illum assumenda
-						dolore enim delectus dolorum? Velit?
-					</p>
-					<h2>Download App Now</h2>
-					<button class="stores"></button>
-					<button class="stores"></button>
+
+				<!--CORPO DA PÁGINA-->
+				<div id="frame-home"></div><!--FRAME DO CONTEÚDO-->
+
+				<!--CONTEÚDO PRINCIPAL-->
+				<div id="display-content-home">
+					<div id="content-home">
+						<h1>A Great App Makes <br> Your Life Better</h1><!--TÍTULO DO CONTEÚDO-->
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Exercitationem cupiditate mollitia esse sed est alias voluptates
+							nobis odio porro itaque, quas voluptate atque. Illum assumenda
+							dolore enim delectus dolorum? Velit?
+						</p>
+						<div id="content-home-download">
+							<h2>Download App Now</h2>
+							<img src="/assets/button-playstore.svg" alt="playstore"><!--BOTÃO PLAYSTORE-->
+							<img src="/assets/button-applestore.svg" alt="applestore"><!--BOTÃO APPLESTORE-->
+						</div>
+						<!--ILUSTRAÇÃO MOBILE HOME-->
+					<div id="home-illustration">
+						<img src="/assets/mobile-home.svg" alt="App illustration" />
+					</div>
+					</div>
 				</div>
-				<img src="/assets/mobile-home.svg" alt="App illustration" />
 			</div>
 
+			<!--PÁGINA 02-->
 			<div id="about">
-				<h1>About Our App</h1>
+				<h1>About Our App</h1><!--TÍTULO PRINCIPAL-->
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
 					aspernatur, aperiam ad nam qui nesciunt illo tempora voluptates nobis
 					quibusdam error iure a excepturi repellendus dicta, quas sapiente quia
 					cumque.
 				</p>
-				<img src="/assets/mobile-about.svg" alt="App illustration" />
+
+				<!--ILUSTRAÇÃO MOBILE ABOUT-->
+				<div id="about-illustration">
+					<img src="/assets/mobile-about.svg" alt="App illustration" />
+				</div>
+
+				<!--TÓPICO 01-->
 				<div class="about-topics">
 					<div>
 						<img src="/assets/about-check.svg" alt="Check icon" />
@@ -84,6 +112,8 @@
 						dolorem aperiam perferendis.
 					</p>
 				</div>
+
+				<!--TÓPICO 02-->
 				<div class="about-topics">
 					<div>
 						<img src="/assets/about-check.svg" alt="Check icon" />
@@ -96,6 +126,8 @@
 						dolorem aperiam perferendis.
 					</p>
 				</div>
+
+				<!--TÓPICO 03-->
 				<div class="about-topics">
 					<div>
 						<img src="/assets/about-check.svg" alt="Check icon" />
@@ -109,9 +141,11 @@
 					</p>
 				</div>
 			</div>
+
+			<!--PÁGINA 03-->
 			<div id="features">
 				<div>
-					<h1>App features</h1>
+					<h1>App features</h1><!--TÍTULO PRINCIPAL-->
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
 						perspiciatis odit doloremque distinctio unde quis soluta nesciunt
@@ -120,55 +154,80 @@
 					</p>
 				</div>
 
+				<!--CHAT TÓPICO-->
 				<div>
 					<img src="/assets/icon-chat.svg" alt="Chat icon" />
 					<h2>Full free chat</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 				</div>
+
+				<!--TÓPICOS À ESQUERDA DA ILUSTRAÇÃO-->
 				<div class="left-icons">
+
+					<!--FEATURES TÓPICO-->
 					<div>
 						<img src="/assets/icon-features.svg" alt="Features icon" />
 						<h2>unlimiter features</h2>
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 					</div>
+
+					<!--DESIGN TÓPICO-->
 					<div>
 						<img src="/assets/icon-design.svg" alt="Design icon" />
 						<h2>awsome ui design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 				</div>
-				<img src="/assets/mobile-features.svg" alt="App illustration" />
+
+				<!--ILUSTRAÇÃO MOBILE FEATURES-->
+				<div id="features-illustrator">
+					<img src="/assets/mobile-features.svg" alt="App illustration" />
+				</div>
+
+				<!--TÓPICOS À DIREITA DA ILUSTRAÇÃO-->
 				<div class="right-icons">
+
+					<!--MOBILE TÓPICO-->
 					<div>
 						<img src="/assets/icon-mobile.svg" alt="Mobile icon" />
 						<h2>iso & androind version</h2>
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 					</div>
+
+					<!--GREAPHICS TÓPICO-->
 					<div>
 						<img src="/assets/icon-greaphics.svg" alt="Greaphics icon" />
 						<h2>retina ready greaphics</h2>
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 					</div>
 				</div>
+
+				<!--SUPPORT TÓPICO-->
 				<div>
 					<img src="/assets/icon-support.svg" alt="Support icon" />
 					<h2>24/7 support by real pepole</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 			</div>
+
+			<!--PÁGINA 04-->
 			<div id="interface">
-				<h1></h1>
+				<h1>Checkout Our App Interface Look</h1><!--TÍTULO PRINCIPAL-->
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
 					facilis odio quos, magni nulla aspernatur ullam modi aliquid est nihil
 					quibusdam voluptatibus, repudiandae incidunt blanditiis qui
 					recusandae! Quae, architecto delectus!
 				</p>
+
+				<!--CARROSSEL DE INTERFACES-->
 				<div class="interface-view">
 					<img src="/assets/arrow.svg" alt="Arrow" />
 					<img src="/assets/mobile-interface.svg" alt="" />
 					<img src="/assets/arrow.svg" alt="Arrow" />
 					<div id="interface-scrool">
+
+						<!--BOLINHAS DE NAVEGAÇÃO-->
 						<div class="navballs"></div>
 						<div class="navballs"></div>
 						<div class="navballs"></div>
@@ -176,6 +235,8 @@
 						<div class="navballs"></div>
 					</div>
 				</div>
+
+				<!--CONTEÚDO PRINCIPAL-->
 				<div class="download">
 					<h1>Download App Now</h1>
 					<p>
@@ -184,29 +245,45 @@
 						illum delectus velit qui, natus molestiae eligendi. Accusamus neque
 						ab beatae vitae!
 					</p>
-					<button class="stores"></button>
-					<button class="stores"></button>
+					<button class="playstore"></button><!--BOTÃO PLAYSTORE-->
+					<button class="applestore"></button><!--BOTÃO APPLESTORE-->
+
+					<!--CARDS-->
+
+					<!--CARD DE DOWNLOAD-->
 					<div class="download-cards">
 						<img src="/assets/icon-download.svg" alt="Download icon" />
 						<span>59865</span>
 						<span>Download</span>
 					</div>
+
+					<!--CARD DE LIKES-->
 					<div class="download-cards">
 						<img src="/assets/icon-like.svg" alt="Like icon" />
 						<span>29852</span>
 						<span>Like</span>
 					</div>
+
+					<!--CARD DE ESTRELAS-->
 					<div class="download-cards">
 						<img src="/assets/icon-star.svg" alt="Star icon" />
 						<span>1500</span>
 						<span>5 star rating</span>
 					</div>
 				</div>
-				<img src="/assets/mobile-download.svg" alt="App illustration" />
+
+				<!--ILUSTRAÇÃO MOBILE DOWNLOAD-->
+				<div id="download-illustrator">
+					<img src="/assets/mobile-download.svg" alt="App illustration" />
+				</div>
 			</div>
+
+			<!--PÁGINA 05-->
 			<div id="team">
+
+				<!--VÍDEO ÁREA-->
 				<div id="video">
-					<h1>how to use the app perfectly</h1>
+					<h1>how to use the app perfectly</h1><!--TEXTO PRINCIPAL DO VÍDEO-->
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
 						aut minus minima. Perferendis nisi atque pariatur fugit illo ducimus
@@ -214,23 +291,34 @@
 						earum at.
 					</p>
 				</div>
+
+				<!--BACKGROUND DO VÍDEO-->
 				<div id="video-background">
 					<img src="/assets/icon-video.svg" alt="Video icon" />
 				</div>
+
+				<!--ÁREA DE TIME-->
 				<div class="team-area">
-					<h1></h1>
+					<h1>Our reative team</h1><!--TÍTULO PRINCIPAL-->
 					<p>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
 						quibusdam consequuntur commodi impedit dolorum assumenda similique
 						rerum expedita illo. Dolor, et maiores. Veritatis magnam
 						voluptatibus alias distinctio quam explicabo eius?
 					</p>
+
+					<!--CARDS DO TIME-->
+
+					<!--CARD 01-->
 					<div class="team-card">
-						<img
-							src="/assets/team-group-frame.svg"
-							alt="Frame"
-							class="team-frame"
-						/>
+
+						<!--FRAME DO TIME-->
+						<div class="team-frame">
+							<img
+								src="/assets/team-group-frame.svg"
+								alt="Frame"
+							/>
+						</div>
 						<img src="" alt="" />
 						<h1>Carla Press</h1>
 						<h2>App Developer</h2>
@@ -240,6 +328,8 @@
 							repellendus atque aliquid suscipit eveniet tempora esse tenetur,
 							accusamus, ab ullam repellat ea natus.
 						</p>
+						
+						<!--REDES SOCIAIS-->
 						<img
 							src="/assets/icon-facebook.svg"
 							alt="Facebook icon"
@@ -261,12 +351,17 @@
 							class="social"
 						/>
 					</div>
+
+					<!--CARD 02-->
 					<div class="team-card">
-						<img
-							src="/assets/team-group-frame.svg"
-							alt="Frame"
-							class="team-frame"
-						/>
+
+						<!--FRAME DO TIME-->
+						<div class="team-frame">
+							<img
+								src="/assets/team-group-frame.svg"
+								alt="Frame"
+							/>
+						</div>
 						<img src="" alt="" />
 						<h1>Craig Gouse</h1>
 						<h2>UI/UX Designer</h2>
@@ -276,6 +371,8 @@
 							repellendus atque aliquid suscipit eveniet tempora esse tenetur,
 							accusamus, ab ullam repellat ea natus.
 						</p>
+
+						<!--REDES SOCIAIS-->
 						<img
 							src="/assets/icon-facebook.svg"
 							alt="Facebook icon"
@@ -297,12 +394,17 @@
 							class="social"
 						/>
 					</div>
+
+					<!--CARD 03-->
 					<div class="team-card">
-						<img
-							src="/assets/team-group-frame.svg"
-							alt="Frame"
-							class="team-frame"
-						/>
+
+						<!--FRAME DO TIME-->
+						<div class="team-frame">
+							<img
+								src="/assets/team-group-frame.svg"
+								alt="Frame"
+							/>
+						</div>
 						<img src="" alt="" />
 						<h1>Jocelyn Septimus</h1>
 						<h2>Website developer</h2>
@@ -312,6 +414,8 @@
 							repellendus atque aliquid suscipit eveniet tempora esse tenetur,
 							accusamus, ab ullam repellat ea natus.
 						</p>
+
+						<!--REDES SOCIAIS-->
 						<img
 							src="/assets/icon-facebook.svg"
 							alt="Facebook icon"
@@ -335,14 +439,18 @@
 					</div>
 				</div>
 			</div>
+
+			<!--PÁGINA 06-->
 			<div id="customers">
-				<h1>Our Happy Customers</h1>
+				<h1>Our Happy Customers</h1><!--TÍTULO PRINCIPAL-->
 				<p>
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
 					at quae ea debitis ad consequuntur tempore, iste corporis sunt
 					dignissimos amet aliquid impedit nihil deleniti illo facilis quaerat
 					qui iusto.
 				</p>
+
+				<!--CARROSSEL DE CARDS-->
 				<div class="customer-card">
 					<img src="/assets/icon-customers.jpg" alt="Ann Lubin" />
 					<h1>Ann Lubin</h1>
@@ -353,6 +461,8 @@
 						ipsam, iusto sequi optio error alias sapiente explicabo sit aut iste
 						ex!
 					</p>
+
+					<!--BOLINHAS DE NAVEGAÇÃO-->
 					<div id="customer-scrool">
 						<div class="navballs"></div>
 						<div class="navballs"></div>
@@ -362,16 +472,22 @@
 					</div>
 				</div>
 			</div>
+
+			<!--PÁGINA 07-->
 			<div id="blog">
-				<h1>Our recent blog</h1>
+				<h1>Our recent blog</h1><!--TÍTULO PRINCIPAL-->
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quidem
 					ullam consectetur omnis quae molestias amet, ad fugiat. Inventore et
 					repellat eaque consequuntur nostrum quis rem dolor debitis voluptatem
 					obcaecati?
 				</p>
+
+				<!--BLOG CARDS-->
+
+				<!--CARD 01-->
 				<div class="blog-cards">
-					<img src="" alt="" />
+					<img src="/assets/snapchat.jpg" alt="Snapchat" />
 					<h2>The Snap Pixel: How It Works and How to Install</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia
@@ -381,8 +497,10 @@
 					</p>
 					<a href="">READ MORE</a>
 				</div>
+
+				<!--CARD 02-->
 				<div class="blog-cards">
-					<img src="" alt="" />
+					<img src="/assets/instagram.jpg" alt="Instagram" />
 					<h2>Global Partner Solutions: A Partnership of Innovation</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia
@@ -392,8 +510,10 @@
 					</p>
 					<a href="">READ MORE</a>
 				</div>
+
+				<!--CARD 03-->
 				<div class="blog-cards">
-					<img src="" alt="" />
+					<img src="/assets/iphone.jpg" alt="Iphone" />
 					<h2>2021: An opportunity for Snapchatters to start fresh</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia
@@ -404,13 +524,19 @@
 					<a href="">READ MORE</a>
 				</div>
 			</div>
+
+			<!--INFORMAÇÕES DE CONTATO-->
 			<div id="info-contact">
+
+				<!--EMAIL-->
 				<div class="info">
 					<div class="frame-contact">
 						<img src="/assets/icon-email.svg" alt="Email icon" />
 					</div>
 					<span>info@youremail.com</span>
 				</div>
+
+				<!--NÚMERO-->
 				<div class="info">
 					<div class="frame-contact">
 						<img src="/assets/icon-phone.svg" alt="Phone icon" />
@@ -420,8 +546,12 @@
 			</div>
 		</main>
 
+
+		<!--RODAPÉ-->
 		<footer>
-			<div>
+
+			<!--CARD 01-->
+			<div id="logo">
 				<h1>Logo</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et
@@ -442,14 +572,18 @@
 				<img src="/assets/icon-twitter.svg" alt="Twitter icon" class="social" />
 				<img src="/assets/icon-youtube.svg" alt="YouTube icon" class="social" />
 			</div>
-			<div>
+
+			<!--CARD 02-->
+			<div id="links">
 				<h1>quick link</h1>
 				<p>About</p>
 				<p>Features</p>
 				<p>Screenshot</p>
 				<p>Blog</p>
 			</div>
-			<div>
+
+			<!--CARD 03-->
+			<div id="subscribe">
 				<h1>news letter</h1>
 				<p>Subscribe our newsletter to get our latest
 					update & news</p>
@@ -458,9 +592,14 @@
 					<img src="/assets/icon-fill.svg" alt="Fill" />
 				</button>
 			</div>
-			<hr>
-			<img src="/assets/icon-copyright.svg" alt="Copyright">
-			<span>Copyright 2021 .Ojjomedia. All Right Reserved.</span>
+
+			<hr><!--LINHA HORIZONTAL-->
+
+			<!--COPYRIGHT-->
+			<div id="copyright">
+				<img src="/assets/icon-copyright.svg" alt="Copyright">
+				<span>Copyright 2021 .Ojjomedia. All Right Reserved.</span>
+			</div>
 		</footer>
 	</body>
 </html>

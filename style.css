@@ -14,57 +14,105 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
     background-color: var(--primary-color);
 }
 
-#about, #interface, #team, #blog, #info-contact{
-    background-color: white;
-}
-
-#video{
-    background-color: var(--primary-color);
-}
-
-#navbar-home{
-    margin: 35px 134px 0 135px;
-}
-
-.contact-networks{
+#float-nav{
     display: flex;
-    justify-content: space-between;
+    gap: 40rem;
+    justify-content: center;
+    margin-top: 2rem
 }
 
-#contact-nav-item{
+#contact{
     display: flex;
-}
-
-#contact-nav-item img{
-    height: 1.8rem;
-}
-
-#download-nav{
-    border: none;
-    border-radius: 0,5rem;
+    align-items: center;
+    gap: 1.8rem;
+    font-size: 1.6rem;
     color: white;
 }
 
-.navigation{
-    border-radius: 0,5rem;
+#networks{
+    display: flex;
+    gap: 3.0rem;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 5rem;
+    width: 81rem;
+    font-size: 2.0rem;
+    border-radius: 0.5rem;
+    margin-top: 1.8rem;
+    gap: 2rem;
+}
+
+#navigation span{
+    font-weight: 600;
     color: var(--text-primary-color);
+    cursor: pointer;
 }
 
-footer{
-    background-color: var(--text-primary-color);
-}
-
-#submit{
-    background-color: var(--primary-color);
+#navigation button{
     border: none;
-    border-radius: 0;
+    background-color: var(--primary-color);
+    color: white;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
-.color-nav:hover{
+#navigation-display{
+    display: flex;
+    justify-content: center;
+}
+
+#navigation span:hover{
     color: var(--primary-color);
+    text-decoration: underline;
+}
+
+#display-content-home{
+    display: flex;
+}
+
+#frame-home{
+    border: 2.5rem;
+}
+
+#content-home{
+    background-color: white;
+    width: 45rem;
+    height: 33rem;
+    padding: 2rem;
+    margin: 5rem 0 0 10rem;
+}
+
+#content-home h1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
+    color: var(--primary-color);
+}
+
+#content-home p{
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    color: var(--text-second-color);
+    margin-top: 1.8rem;
+}
+
+#content-home h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--text-primary-color);
+    margin-bottom: 0.5rem;
+}
+
+#content-home-download{
+    margin-top: 5.2rem;
 }
