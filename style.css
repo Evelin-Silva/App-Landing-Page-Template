@@ -17,9 +17,18 @@ body{
     background-color: var(--primary-color);
 }
 
+#about, #interface, #team, #blog    {
+    background-color: white;
+}
+
+#home, #about, #features, #interface, #team, #customers, #blog{
+    height: 100vh;
+    width: 100vw;
+}
+
 #float-nav{
     display: flex;
-    gap: 40rem;
+    gap: 49rem;
     justify-content: center;
     margin-top: 2rem
 }
@@ -27,9 +36,13 @@ body{
 #contact{
     display: flex;
     align-items: center;
-    gap: 1.8rem;
-    font-size: 1.6rem;
+    gap: 1.2rem;
+    font-size: 1.2rem;
     color: white;
+}
+
+#float-nav img{
+    height: 1.2rem;
 }
 
 #networks{
@@ -44,10 +57,14 @@ body{
     background-color: white;
     height: 5rem;
     width: 81rem;
-    font-size: 2.0rem;
+    font-size: 2rem;
     border-radius: 0.5rem;
     margin-top: 1.8rem;
-    gap: 2rem;
+    gap: 1.8rem;
+}
+
+#logo-appolly{
+    height: 8rem;
 }
 
 #navigation span{
@@ -80,39 +97,141 @@ body{
     display: flex;
 }
 
-#frame-home{
-    border: 2.5rem;
-}
-
 #content-home{
     background-color: white;
-    width: 45rem;
-    height: 33rem;
+    width: 30rem;
+    height: 25rem;
     padding: 2rem;
-    margin: 5rem 0 0 10rem;
+    margin: 10rem 0 0 10rem;
 }
 
 #content-home h1{
     font-weight: 700;
-    font-size: 3.8rem;
+    font-size: 2.5rem;
     line-height: 4.5rem;
     color: var(--primary-color);
 }
 
 #content-home p{
     flex-wrap: wrap;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-second-color);
-    margin-top: 1.8rem;
+    margin-top: 0.5rem;
 }
 
 #content-home h2{
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--text-primary-color);
     margin-bottom: 0.5rem;
 }
 
 #content-home-download{
-    margin-top: 5.2rem;
+    margin-top: 2.5rem;
+}
+
+#content-home-download img{
+    height: 3rem;
+}
+
+#frame-home{
+    border: rgba(117, 114, 255, 1) 1.5rem solid;
+    width: 32rem;
+    height: 31rem;
+    margin: -28rem 0 0 12rem ;
+}
+
+#home-illustration img{
+    height: 38rem;
+    margin: -32rem 0 0 52rem;
+}
+
+#about{
+    text-align: center;
+}
+
+#content-about{
+    padding-top: 8rem;
+    width: 35rem;
+}
+
+#content-about h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#content-about p{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    color: var(--text-second-color);
+}
+
+#display-content-about{
+    display: flex;
+    justify-content: center;
+}
+
+#display-illustration-topics{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 0 10rem;
+    gap: 20rem;
+    width: 80rem;
+}
+
+#display-topics{
+    display: block;
+}
+
+.tittle-topics{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tittle-topics h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.tittle-topics img{
+    height: 2rem;
+}
+
+.about-topics p{
+    font-size: 1rem;
+    color: var(--text-second-color);
+    text-align: left;
+    margin: 1rem 0 4rem 3rem;
+}
+
+#about-illustration img{
+    height: 38rem;
+    margin-top: -7rem;
+}
+
+#display-content-features{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 0 10rem;
+    gap: 20rem;
+    width: 40rem;
+}
+
+#content-features{
+    margin-top: 1.8rem;
+}
+
+#content-features h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#content-features p{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    color: white;
+    text-align: center;
 }
