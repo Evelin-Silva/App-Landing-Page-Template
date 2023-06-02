@@ -21,9 +21,8 @@ body{
     background-color: white;
 }
 
-#home, #about, #features, #interface, #team, #customers, #blog{
-    height: 100vh;
-    width: 100vw;
+#video{
+    background-color: var(--primary-color);
 }
 
 #float-nav{
@@ -148,10 +147,10 @@ body{
 
 #about{
     text-align: center;
+    padding: 8rem 0 8rem 10rem;
 }
 
 #content-about{
-    padding-top: 8rem;
     width: 35rem;
 }
 
@@ -174,7 +173,7 @@ body{
 #display-illustration-topics{
     display: flex;
     justify-content: center;
-    margin: 5rem 0 0 10rem;
+    margin-top: 5rem;
     gap: 20rem;
     width: 80rem;
 }
@@ -210,10 +209,14 @@ body{
     margin-top: -7rem;
 }
 
+#features{
+    padding: 5rem;
+    color: white;
+}
+
 #display-content-features{
     display: flex;
-    justify-content: center;
-    margin: 5rem 0 0 10rem;
+    margin: auto;
     gap: 20rem;
     width: 40rem;
 }
@@ -226,12 +229,90 @@ body{
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
-    color: white;
 }
 
 #content-features p{
     font-size: 1rem;
     margin-top: 1.8rem;
-    color: white;
     text-align: center;
+}
+
+#chat-topic, #support-topic, .left-icons, .right-icons{
+    margin: auto;
+}
+
+#chat-topic img, #support-topic img, .left-icons img, .right-icons img{
+    height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#chat-topic h2, #support-topic h2, .left-icons h2, .right-icons h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#chat-topic p, #support-topic p, .left-icons p, .right-icons p{
+    font-size: 1rem;
+    width: 20rem;
+}
+
+#chat-topic p, #support-topic p{
+    margin: auto;
+}
+
+#features-illustrator img{
+    height: 60rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+#display-topics-illustrator{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#chat-topic, #support-topic{
+    text-align: center;
+    width: 30rem;
+}
+
+#chat-topic{
+    margin-top: 5rem;
+}
+
+.unlimiter-features, .version{
+    margin-bottom: 20rem;
+}
+
+.left-icons{
+    margin-right: -2rem;
+    text-align: right;
+}
+
+.right-icons{
+    margin-left: -2rem;
+}
+
+#interface{
+    padding: 5rem 0 5rem 0;
+}
+
+#content-interface h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content-interface p{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-second-color);
+    width: 40rem;
+    margin: auto;
+    margin-top: 1.8rem;
+}
+
+.interface-view:nth-child(2) img{
+    height: 20rem;
 }
